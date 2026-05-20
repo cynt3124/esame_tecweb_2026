@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -56,3 +57,35 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+//Clonare il repository
+
+git clone https://bitbucket.org/christine312/esame_tecweb_2026.git
+cd esame_tecweb_2026
+
+//Installare le dipendenze
+
+composer install
+npm install
+
+//Creare il file .env
+
+cp .env.example .env
+php artisan key:generate
+
+//Avviare il server Laravel
+
+php artisan serve
+
+//Avviare Vite
+
+npm run dev
+
+//Struttura del progetto :
+
+routes/web.php — definizione delle rotte
+app/Http/Controllers/ — controller dell’applicazione
+resources/views/ — viste Blade
+public/ — assets pubblici
+resources/js e resources/css — gestiti da Vite
+>>>>>>> 8b16e54d9c184df45a37e8811b30729347730638
