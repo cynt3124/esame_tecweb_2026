@@ -103,4 +103,4 @@ class EmployeeProjectController extends Controller
 
         return redirect()->route('employee-project.index')->with('success', 'Progetto rimosso con successo!');
     }
-} 
+}

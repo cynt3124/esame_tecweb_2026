@@ -2,8 +2,8 @@ const pcPE = document.getElementById('pieChartPE');
 const lcPH = document.getElementById('lineChartPH');
 
 let data   = window.chartProjEmp;
-let labels = data.map(d => d.label)
-let counts = data.map(d => d.value);
+let labels = data.map(d => d.project)
+let counts = data.map(d => d.count);
 
 new Chart(pcPE, {
     type: 'pie',
